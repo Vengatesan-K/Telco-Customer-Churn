@@ -1,6 +1,6 @@
 from CustomerChurn.constants import *
 from CustomerChurn.utils.common import read_yaml, create_directories
-from CustomerChurn.entity.config_entity import (DataIngestionConfig,DataValidationConfig, DataTransformationConfig)
+from CustomerChurn.entity.config_entity import (ModelTrainerconfig, DataIngestionConfig,DataValidationConfig, DataTransformationConfig)
 
 
 
@@ -59,3 +59,26 @@ class ConfigurationManager:
         )
         
         return data_transformation_config
+    
+    
+    def get_model_trainer_config(self) -> ModelTrainerconfig:
+        config = self.config.model_trainer
+        params = self.params.RandomForestClassifier
+        schema = self.schema.TARGET_COLUMN
+        
+        
+        create_directories([config.root_dir])
+        
+        model_trainer_config = ModelTrainerconfig(
+            root_dir = config.root_dir,
+            train_data_path = config.train_data_path,
+            test_data_path = config.test_data_path,
+            model_name = config.model_name,
+            criterion = params.criterion,
+            n_estimators = params.n_estimators,
+            max_features = params.max_features,
+            min_samples_leaf = params.min_samples_leaf,
+            target_column = schema.name
+        )
+        
+        return model_trainer_config

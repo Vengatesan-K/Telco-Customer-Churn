@@ -1,1 +1,6 @@
-key: val
+RandomForestClassifier:
+    criterion: entropy
+    n_estimators: 572
+    max_features: 6
+    min_samples_leaf: 3
+
