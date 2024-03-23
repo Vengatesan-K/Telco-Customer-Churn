@@ -1,1 +1,52 @@
-key: val
+COLUMNS:
+   SeniorCitizen:   int64  
+   MonthlyCharges:  float64
+   TotalCharges: float64  
+   gender_Female: int64  
+   gender_Male: int64  
+   Partner_No:  int64  
+   Partner_Yes: int64  
+   Dependents_No:  int64  
+   Dependents_Yes:  int64  
+   PhoneService_No:  int64  
+   PhoneService_Yes:  int64  
+   MultipleLines_No:  int64  
+   MultipleLines_No phone service: int64  
+   MultipleLines_Yes: int64  
+   InternetService_DSL: int64  
+   InternetService_Fiber optic: int64  
+   InternetService_No:  int64  
+   OnlineSecurity_No:  int64  
+   OnlineSecurity_No internet service: int64  
+   OnlineSecurity_Yes:  int64  
+   OnlineBackup_No:  int64  
+   OnlineBackup_No internet service: int64  
+   OnlineBackup_Yes:  int64  
+   DeviceProtection_No:  int64  
+   DeviceProtection_No internet service: int64  
+   DeviceProtection_Yes: int64  
+   TechSupport_No:  int64  
+   TechSupport_No internet service:  int64  
+   TechSupport_Yes: int64  
+   StreamingTV_No:  int64  
+   StreamingTV_No internet service: int64  
+   StreamingTV_Yes:  int64  
+   StreamingMovies_No: int64  
+   StreamingMovies_No internet service: int64  
+   StreamingMovies_Yes:  int64  
+   Contract_Month-to-month:  int64  
+   Contract_One year:  int64  
+   Contract_Two year: int64  
+   PaperlessBilling_No:  int64  
+   PaperlessBilling_Yes:   int64  
+   PaymentMethod_Bank transfer (automatic):  int64  
+   PaymentMethod_Credit card (automatic):  int64  
+   PaymentMethod_Electronic chec:  int64  
+   PaymentMethod_Mailed check:  int64  
+   tenure_group_1 - 18:  int64  
+   tenure_group_19 - 36:  int64  
+   tenure_group_37 - 54:  int64  
+   tenure_group_55 - 72:  int64  
+
+TARGET_COLUMN:
+     name: Churn
