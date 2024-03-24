@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/VENKA/Desktop/Data%20Science/Project/Telco%20Customer/Telco-Customer-Churn/mlruns/0/17c8f34cc14d4a3a9d018be26a93196e/artifacts
+end_time: 1711272963711
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 17c8f34cc14d4a3a9d018be26a93196e
+run_name: bright-hen-193
+run_uuid: 17c8f34cc14d4a3a9d018be26a93196e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711272957290
+status: 3
+tags: []
+user_id: VENKA

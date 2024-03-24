@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/VENKA/Desktop/Data%20Science/Project/Telco%20Customer/Telco-Customer-Churn/mlruns/0/368ca2b078ed4bf7b0d4388c8326a364/artifacts
+end_time: 1711272658022
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 368ca2b078ed4bf7b0d4388c8326a364
+run_name: intelligent-yak-478
+run_uuid: 368ca2b078ed4bf7b0d4388c8326a364
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711272652656
+status: 3
+tags: []
+user_id: VENKA

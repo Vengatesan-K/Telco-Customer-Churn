@@ -1,6 +1,6 @@
 RandomForestClassifier:
     criterion: entropy
-    n_estimators: 572
+    n_estimators: 970
     max_features: 6
-    min_samples_leaf: 3
+    min_samples_leaf: 4
 
